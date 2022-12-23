@@ -1,0 +1,9 @@
+1 10 Outside_Temperature
+5 10 Supply_Temperature
+7 10 Return_Temperature
+8 10 Water_Top
+9 10 Water_Charge
+1028 1 Priority
+301 1 Pump1_Freq
+302 1 MainPump_Freq
+1803 10 Current_Freq
