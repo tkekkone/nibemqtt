@@ -5,4 +5,5 @@ Build docker image:
 `docker build -t mbpoll`
 
 Run with env configs
+
 `docker run -e MQTT_HOST="mosquitto" -e MQTT_PORT=1883 -e NIBEHOST="nibe" -e POLLTIME=30 mdpoll`
