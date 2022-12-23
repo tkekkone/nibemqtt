@@ -6,4 +6,4 @@ Build docker image:
 
 Run with env configs
 
-`docker run -e MQTT_HOST="mosquitto" -e MQTT_PORT=1883 -e NIBEHOST="nibe" -e POLLTIME=30 mdpoll`
+`docker run -e MQTT_HOST="mosquitto" -e MQTT_PORT=1883 -e NIBEHOST="nibe" -e POLLTIME=30 mbpoll`
