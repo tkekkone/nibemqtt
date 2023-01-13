@@ -15,5 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag tkekkone/nibemqtt:$(date +%s) --tag tkekkone/nibemqtt:latest  &&\
-           docker push tkekkone/nibemqtt:$(date +%s)
+      run: |
+        docker build --file Dockerfile --tag tkekkone/nibemqtt:$(date +%s) --tag tkekkone/nibemqtt:latest .
+        docker push tkekkone/nibemqtt:$(date +%s)
